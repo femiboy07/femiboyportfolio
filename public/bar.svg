@@ -1,0 +1,29 @@
+<svg
+  width="50"
+  height="40"
+  viewBox="0 0 50 40"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    d="M5 10 Q 15 0, 25 10 T 45 10"
+    stroke="black"
+    stroke-width="4"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <path
+    d="M5 20 Q 15 30, 25 20 T 45 20"
+    stroke="black"
+    stroke-width="4"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <path
+    d="M5 30 Q 15 40, 25 30 T 45 30"
+    stroke="black"
+    stroke-width="4"
+    stroke-linecap="round"
+    fill="none"
+  />
+</svg>
