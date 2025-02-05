@@ -2,7 +2,6 @@
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
 import useInitialWidthState from "../app/hooks/useInitialWidthState";
-import Image from "next/image";
 
 
 const Header = ({ className, id }: { className: string, id: string | undefined }) => {
@@ -18,10 +17,6 @@ const Header = ({ className, id }: { className: string, id: string | undefined }
 
             navButton?.addEventListener('click', () => {
                 navMenu?.classList.add('open');
-
-
-
-
                 setIsOpen(true);
                 if (navMenu?.classList.contains('open') && width <= 768) document.documentElement.style.overflow = 'hidden'
                 // document.documentElement.style.overflow = 'hidden'
@@ -116,7 +111,8 @@ const Header = ({ className, id }: { className: string, id: string | undefined }
                             </span>
                         </div>
                         <Link href={'https://github.com/femiboy07'} className="self-center pl-5">
-                            <Image src='/Github_Logo.png' width={50} height={50} alt="Github-logo" className="w-auto h-auto" />
+                            <span className="text-black">GH</span>
+                            {/* <Image src='/Github_Logo.png' width={50} height={50} alt="Github-logo" className="w-auto h-auto" /> */}
                         </Link>
                     </div>
                 </div>
