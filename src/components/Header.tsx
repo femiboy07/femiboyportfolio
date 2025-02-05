@@ -79,7 +79,7 @@ const Header = ({ className, id }: { className: string, id: string | undefined }
                         <path d="M30 55 L55 55" />
 
                         {/* <!-- "O" as a Dot --> */}
-                        <circle cx="50" cy="0" r="6" fill="currentColor" className=" animate-spin" />
+                        {/* <circle cx="50" cy="0" r="6" fill="currentColor" className=" animate-spin" /> */}
 
                     </svg>
                 </Link>
@@ -116,7 +116,7 @@ const Header = ({ className, id }: { className: string, id: string | undefined }
                             </span>
                         </div>
                         <Link href={'https://github.com/femiboy07'} className="self-center pl-5">
-                            <Image src='/Github_Logo.png' width={50} height={50} alt="Github-logo" />
+                            <Image src='/Github_Logo.png' width={50} height={50} alt="Github-logo" className="w-auto h-auto" />
                         </Link>
                     </div>
                 </div>

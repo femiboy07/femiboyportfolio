@@ -18,7 +18,7 @@ export default function FooterBar() {
                         </span>
                     </div>
                     <Link href={'https://github.com/femiboy07'}>
-                        <Image src='/Github_Logo.png' width={50} height={50} alt="Github-logo" />
+                        <Image src='/Github_Logo.png' width={50} height={50} alt="Github-logo" className="w-auto h-auto" />
                     </Link>
                 </div>
             </div>

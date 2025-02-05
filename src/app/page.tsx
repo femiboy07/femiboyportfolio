@@ -132,13 +132,13 @@ export default function Home() {
 
           <motion.div className="flex justify-center  relative max-[580px]:px-[15vw]    items-center w-full ">
             <motion.div className=" leading-10  z-30 text-left p-5 rounded-md -translate-y-1/2  absolute top-1/2  ">
-              <motion.h5 initial={{ translateY: '100%' }} animate={{ translateY: "0", transition: { ease: ["easeInOut"], duration: '0.4' } }} className="text-white font-bold text-[1.4em]">Hey, Am a </motion.h5>
+              <motion.h5 initial={{ translateY: '100%' }} animate={{ translateY: "0", transition: { ease: "easeInOut", duration: 1.5 } }} className="text-white font-bold text-[1.4em]">Hey, Am a </motion.h5>
               {/* <br /> */}
               <div className="text-yellow-500 font-extrabold md:text-[4.4em] text-5xl  tracking-tighter ">
-                <motion.h1 initial={{ translateX: '-100%' }} animate={{ translateX: '0', animationDelay: 'revert-layer', dur: '0.5', animation: "ease-in", transition: { delay: 0.5, ease: ["easeOut"], duration: '0.4' } }}>Frontend</motion.h1>
+                <motion.h1 initial={{ translateX: '-100%' }} animate={{ translateX: '0', transition: { delay: 0.5, ease: "easeOut", duration: 0.5 } }}>Frontend</motion.h1>
                 {/* <br /> */}
-                <motion.h1 initial={{ translateX: '100%' }} animate={{ translateX: '0', animationDelay: 'revert-layer', transition: { delay: 0.5, ease: ["easeInOut"], duration: '0.4' } }}>Developer</motion.h1></div>
-              <motion.p initial={{ translateY: '100%' }} animate={{ translateY: "0", transition: { ease: ["easeInOut"], duration: '0.4' } }} className="text-yellow-500 text-[1.4em] tracking-tight font-bold  ">I like building nice api and user interfaces</motion.p>
+                <motion.h1 initial={{ translateX: '100%' }} animate={{ translateX: '0', transition: { delay: 0.5, ease: "easeInOut", duration: 0.5 } }}>Developer</motion.h1></div>
+              <motion.p initial={{ translateY: '100%' }} animate={{ translateY: "0", transition: { ease: ["easeInOut"], duration: 0.5 } }} className="text-yellow-500 text-[1.4em] tracking-tight font-bold  ">I like building nice api and user interfaces</motion.p>
               {/* <RandomZigzag /> */}
             </motion.div>
             <RandomZigzag />
@@ -168,9 +168,9 @@ export default function Home() {
           scale: opacity2,
           rotate: opacity3,
           transition: 'background-color 0.3s ease',
-        }} ref={aboutRef} tabIndex={-1} id="about" className="  min-[701px]:min-h-screen   bg-[#FEFBF6]   max-[1199px]:min-h-screen relative   flex  items-center justify-center  text-center   ">
+        }} ref={aboutRef} tabIndex={-1} id="about" className="  min-[701px]:min-h-screen   bg-[#FEFBF6]    max-[1199px]:min-h-screen relative   flex  items-center justify-center  text-center   ">
 
-          <div className="min-[701px]:max-w-[1500px] min-[701px]:px-[10rem] max-[700px]:px-[5rem] min-[701px]:mt-[5.5vh] min-[701px]:items-center max-[700px]:flex-col max-[580px]:px-[15vw] max-[580px]:mt-[7.12em] max-[700px]:mt-[11.12em] w-full justify-between mb-4   flex  md:flex-row items-center px-3 md:px-[10rem]  ">
+          <div className="min-[701px]:max-w-[1500px] min-[701px]:px-[10rem] relative max-[700px]:px-[5rem] min-[701px]:mt-[5.5vh] min-[701px]:items-center max-[700px]:flex-col max-[580px]:px-[15vw] max-[580px]:mt-[7.12em] max-[700px]:mt-[11.12em] w-full justify-between mb-4   flex  md:flex-row items-center px-3 md:px-[10rem]  ">
             <AboutMeEllipse scrollProgress={scrollYProgress2} aboutRef={aboutRef} />
           </div>
 
