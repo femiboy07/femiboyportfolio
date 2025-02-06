@@ -3,7 +3,7 @@
         "id": 1,
         "projectName": "ulevalwebsite",
         "projectLink": "https://uleval.com/",
-        "projectImage": "./uleval.png",
+        "projectImage": "uleval.png",
         "description": " As an intern in uleval technology i worked on their front end home page design using wordpress and php.",
         "tools": [
             "Wordpress",
@@ -15,7 +15,7 @@
         "id": 2,
         "projectName": "chatapp",
         "projectLink": "https://chatt-app-lac.vercel.app/",
-        "projectImage": "./chatt-app-lac.vercel.app_channel_Loveisland.png",
+        "projectImage": "chatt-app-lac.vercel.app_channel_Loveisland.png",
         "description": "hellotax is a VAT compliance automation software tailored towards multi-channel traders across Europe.",
         "tools": [
             "React",
@@ -26,7 +26,7 @@
         "id": 3,
         "projectName": "kanbanboard",
         "projectLink": "https://task-management-app-gilt.vercel.app/",
-        "projectImage": "./task-management-app-gilt.vercel.app.png",
+        "projectImage": "task-management-app-gilt.vercel.app.png",
         "description": "So i created a basic kanbanboard using react,typescript . it was challenging handling the drag and drop and managing the logic with redux but i got it ",
         "tools": [
             "React"
@@ -36,7 +36,7 @@
         "id": 4,
         "projectName": "connect4",
         "projectLink": "https://connect4-multi-player.vercel.app/",
-        "projectImage": "./connect4-multi-player.vercel.app_r_99030617-d391-47e5-ac6b-00b1705dbac4.png",
+        "projectImage": "connect4-multi-player.vercel.app_r_99030617-d391-47e5-ac6b-00b1705dbac4.png",
         "description": "i created an online multiplayer connect4 game and i got the design from front-end-mentor, This Connect4 app is hosted on a free-tier service, which means the server may enter a \"sleep\" state during periods of inactivity. As a result, when initiating a new game (e.g., clicking \"find player\"), there might be a short delay (cold start) before the server fully spins up and the game begins. In a production environment, this issue can be resolved by upgrading to a paid tier or implementing strategies to keep the server active.",
         "tools": [
             "React",
@@ -48,7 +48,7 @@
         "id": 5,
         "projectName": "financeapp",
         "projectLink": "https://finance-care-1.vercel.app/",
-        "projectImage": "./finance-care.vercel.app_auth_login.png",
+        "projectImage": "finance-care.vercel.app_auth_login.png",
         "description": "A basic fullstack budget app to orgarnize and manage spendings. so i worked on authentication , authorization , creating api routes for creating budget and so on and so forth ",
         "tools": [
             "React",
