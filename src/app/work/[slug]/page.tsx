@@ -68,8 +68,11 @@ export default function Page() {
                     </div>
                 </div>
             </div>
-            <div className="post-content mx-auto text-center max-w-[940px] relative">
-                <p className="text-[17px]">{currentProject?.description}</p>
+            <div className="post-content mx-auto text-left max-w-[940px] relative">
+                {currentProject?.description.split(`\n.`).map((item, index) => (
+                    <p key={index} className="text-[17px]">{item}</p>
+                ))}
+
             </div>
         </main>
     );

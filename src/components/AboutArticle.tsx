@@ -82,7 +82,7 @@ export default function AboutArticle({ scrollProgress, aboutRef }: { scrollProgr
     const text18 = `in every project`
 
     return (
-        <article className="relative  txt-article p-5 min-h-64  mr-4 ">
+        <article className="relative border-[0_0_.15rem_0] md:border-r-4 max-[701px]:border-r-0 max-[701px]:border-b-4 border-dotted  txt-article p-5 min-h-64  mr-4 ">
 
             <div className="last-of-type:mb-5  quoted-text">
                 <PaintedParagraph aboutRef={aboutRef} scrollProgress={scrollProgress} text={text1} className="min-[701px]:w-[40vw]" />

@@ -170,7 +170,7 @@ export default function Home() {
           transition: 'background-color 0.3s ease',
         }} ref={aboutRef} tabIndex={-1} id="about" className="  min-[701px]:min-h-screen   bg-[#FEFBF6]    max-[1199px]:min-h-screen relative   flex  items-center justify-center  text-center   ">
 
-          <div className="min-[701px]:max-w-[1500px] min-[701px]:px-[10rem] relative max-[700px]:px-[5rem] min-[701px]:mt-[5.5vh] min-[701px]:items-center max-[700px]:flex-col max-[580px]:px-[15vw] max-[580px]:mt-[7.12em] max-[700px]:mt-[11.12em] w-full justify-between mb-4   flex  md:flex-row items-center px-3 md:px-[10rem]  ">
+          <div className="min-[701px]:max-w-[1500px]  min-[701px]:px-[10rem] relative max-[700px]:px-[5rem] min-[701px]:mt-[5.5vh] min-[701px]:items-center max-[700px]:flex-col max-[580px]:px-[15vw] max-[580px]:mt-[7.12em] max-[700px]:mt-[11.12em] w-full justify-between mb-4   flex  md:flex-row items-center px-3 md:px-[10rem]  ">
             <AboutMeEllipse scrollProgress={scrollYProgress2} aboutRef={aboutRef} />
           </div>
 
